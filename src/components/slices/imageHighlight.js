@@ -16,8 +16,8 @@ export const ImageHighlight = ({ slice }) => (
     </div>
     <div className="highlight-right">
       <img
-        src={slice.primary.highlighted_image}
-        alt={slice.primary.highlighted_image}
+        src={slice.primary.highlighted_image.url}
+        alt={slice.primary.highlighted_image.alt}
       />
     </div>
   </section>

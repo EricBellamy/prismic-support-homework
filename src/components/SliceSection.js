@@ -14,7 +14,7 @@ export const SliceSection = ({ slices }) => {
           return <FullWidthImage slice={slice} />
         } else if (slice.slice_type === 'image_gallery') {
           return <ImageGallery slice={slice} />
-        } else if (slice.slice_type === 'image_highlight') {
+        } else if (slice.slice_type === 'image_highlights') {
           return <ImageHighlight slice={slice} />
         } else if (slice.slice_type === 'quote') {
           return <Quote slice={slice} />
