@@ -3,18 +3,18 @@
   "description": "An example multi-page site built using React.js connected to Prismic CMS",
   "author": "Prismic",
   "dependencies": {
-    "@prismicio/client": "^6.2.0",
-    "@prismicio/helpers": "^2.1.1",
-    "@prismicio/react": "2.0.2",
+    "@prismicio/client": "^7.7.4",
+    "@prismicio/helpers": "^2.3.9",
+    "@prismicio/react": "2.8.0",
     "prismic-dom": "^2.2.7",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
-    "react-router-dom": "^6.0.2"
+    "react-router-dom": "^6.25.1"
   },
   "devDependencies": {
-    "prettier": "^2.5.0",
-    "react-scripts": "^4.0.3"
+    "prettier": "^3.3.3",
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
