@@ -8,7 +8,7 @@ import { PrismicText } from "@prismicio/react";
 export const Quote = ({ slice }) => (
   <section class="content-section quote">
     <blockquote>
-      <PrismicText field={slice.primary.quote_text} />
+      <PrismicText field={slice.primary.quote} />
     </blockquote>
   </section>
 );
