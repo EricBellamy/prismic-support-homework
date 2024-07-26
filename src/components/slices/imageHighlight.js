@@ -1,4 +1,4 @@
-import { PrismicRichText, PrismicText, PrismicLink } from "@prismicio/react";
+import { PrismicRichText, PrismicText, PrismicLink, PrismicImage } from "@prismicio/react";
 
 /**
  * Image highlight slice component
@@ -15,10 +15,7 @@ export const ImageHighlight = ({ slice }) => (
       </p>
     </div>
     <div className="highlight-right">
-      <img
-        src={slice.primary.highlighted_image.url}
-        alt={slice.primary.highlighted_image.alt}
-      />
+	  <PrismicImage field={slice.primary.highlighted_image} />
     </div>
   </section>
 );
