@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
 import { usePrismicPreviewResolver } from "@prismicio/react";
 
 import { Loader } from "../components/Loader";
@@ -7,7 +8,8 @@ import { Loader } from "../components/Loader";
  * Prismic preview component
  */
 export const Preview = () => {
-  const [previewURL, previewState] = usePrismicPreviewResolver();
+  const navigate = useNavigate();
+  const [previewURL, previewState] = usePrismicPreviewResolver({ navigate });
 
   useEffect(() => {
     if (previewState.state === "failed") {
